@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    float num1,num2,num3;
+    double num1,num2,num3;
     cout<<"Insert numbers"<<endl;
     cin>>num1>>num2>>num3;
     double maxNum=num1;
