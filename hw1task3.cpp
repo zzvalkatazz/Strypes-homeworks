@@ -1,7 +1,7 @@
 #include<iostream>
 #include<cmath>
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
+#ifndef Math_PI
+#define Math_PI 3.14159265358979323846
 #endif
 using namespace std;
 double findHorizontalCylinderArea(double r, double h)
@@ -31,7 +31,6 @@ void LadditionVolume()
 		return;
 	}
 
-	double pi = M_PI;
 	
 	double water_area=findHorizontalCylinderArea(R,H);
 	double water_volume = water_area * L;
@@ -41,7 +40,7 @@ int main()
 {
 	//a)
 	double R, H;
-	double pi = M_PI;
+	double pi = Math_PI;
 	cout << "a)Insert R and H" << endl;
 	cin >> R;
 	cin >> H;
