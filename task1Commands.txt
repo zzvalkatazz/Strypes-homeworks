@@ -1,42 +1,43 @@
-Създайте празната директория day1. Създайте празните файлове test1, test2, test3
+РЎСЉР·РґР°Р№С‚Рµ РїСЂР°Р·РЅР°С‚Р° РґРёСЂРµРєС‚РѕСЂРёСЏ day1. РЎСЉР·РґР°Р№С‚Рµ РїСЂР°Р·РЅРёС‚Рµ С„Р°Р№Р»РѕРІРµ test1, test2, test3
 ~$ mkdir day1
 ~$ touch test1
 ~$ touch test2
 ~$ touch test3
- Сложете текстовете:
-- "Hello Bash" във файла test1 
-- текущата дата във файла test2
-- името на текущата директория във файла test3.
+ РЎР»РѕР¶РµС‚Рµ С‚РµРєСЃС‚РѕРІРµС‚Рµ:
+- "Hello Bash" РІСЉРІ С„Р°Р№Р»Р° test1 
+- С‚РµРєСѓС‰Р°С‚Р° РґР°С‚Р° РІСЉРІ С„Р°Р№Р»Р° test2
+- РёРјРµС‚Рѕ РЅР° С‚РµРєСѓС‰Р°С‚Р° РґРёСЂРµРєС‚РѕСЂРёСЏ РІСЉРІ С„Р°Р№Р»Р° test3.
 
-~$ echo “Hello bash”>test1
+~$ echo вЂњHello bashвЂќ>test1
 ~$ date > test2
 ~$ pwd>test3
-В директорията day1, създайте директорията testDir. Копирайте в нея файловете test1, test2, test3.
+Р’ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° day1, СЃСЉР·РґР°Р№С‚Рµ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° testDir. РљРѕРїРёСЂР°Р№С‚Рµ РІ РЅРµСЏ С„Р°Р№Р»РѕРІРµС‚Рµ test1, test2, test3.
 ~$ mkdir day1/testDir
 ~$ cp test1 day
 ~$ cp test2 day
 ~$ cp test3 day
-¬$ cd day1
+В¬$ cd day1
 ~/day1$ cp test1 testDir
 ~/day1$ cp test2 testDir
 ~/day1$ cp test3 testDir
-В директорията testDir, създайте директорията testNested. В нея - копирайте файловете test1, test2.
+Р’ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° testDir, СЃСЉР·РґР°Р№С‚Рµ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° testNested. Р’ РЅРµСЏ - РєРѕРїРёСЂР°Р№С‚Рµ С„Р°Р№Р»РѕРІРµС‚Рµ test1, test2.
   ~/day1$ cd testDir
 ~/day1/testDir$ mkdir testNested
 ~/day1/testDir$ cp test1 testNested
 ~/day1/testDir$ cp test2 testNested
 
- Изтрийте файловете test1,test2,test3 от директорията day1.
+ РР·С‚СЂРёР№С‚Рµ С„Р°Р№Р»РѕРІРµС‚Рµ test1,test2,test3 РѕС‚ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° day1.
 ~/day1/testDir$ cd ..
 ~/day1$ rm test1 test2 test3
-В директорията day1 - копирайте цялото съдържание на директорията testDir в новата директория testDirCopy
+Р’ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° day1 - РєРѕРїРёСЂР°Р№С‚Рµ С†СЏР»РѕС‚Рѕ СЃСЉРґСЉСЂР¶Р°РЅРёРµ РЅР° РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° testDir РІ РЅРѕРІР°С‚Р° РґРёСЂРµРєС‚РѕСЂРёСЏ testDirCopy
 ~/day1$ cp -r testDir testCopy
- Докато се намирате в директорията day1, изтрийте файла test1(от директорията testDir)
+ Р”РѕРєР°С‚Рѕ СЃРµ РЅР°РјРёСЂР°С‚Рµ РІ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° day1, РёР·С‚СЂРёР№С‚Рµ С„Р°Р№Р»Р° test1(РѕС‚ РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° testDir)
 ~/day1$ cp -r testDir testCopy
 ~/day1$ rm testDir/test2
-Изтрийте цялото съдържание на директорията testDirCopy
+РР·С‚СЂРёР№С‚Рµ С†СЏР»РѕС‚Рѕ СЃСЉРґСЉСЂР¶Р°РЅРёРµ РЅР° РґРёСЂРµРєС‚РѕСЂРёСЏС‚Р° testDirCopy
 ~/day1$ cd testDirCopy
 ~/day1/testDirCopy$ rm -r *
+
 
 
 
