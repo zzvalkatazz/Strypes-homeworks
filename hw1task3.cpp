@@ -22,7 +22,7 @@ double findHorizontalCylinderArea(double r, double h)
 void LadditionVolume()
 {
 	double R, H, L;
-	cout << "á)Insert R ,L  and H" << endl;
+	cout << B)Insert R ,L  and H" << endl;
 	cin >> R;
 	cin >> L;
 	cin >> H;
@@ -47,7 +47,7 @@ int main()
 	cin >> H;
 	double water_volume = pi*R*R*H;
 	cout << water_volume << endl;
-	//á)
+	//b)
 	LadditionVolume();
 	return 0;
 }
