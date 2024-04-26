@@ -1,4 +1,4 @@
-#include<iostream>
+"#include<iostream>
 #include<cmath>
 #ifndef Math_PI
 #define Math_PI 3.14159265358979323846
@@ -22,7 +22,7 @@ double findHorizontalCylinderArea(double r, double h)
 void LadditionVolume()
 {
 	double R, H, L;
-	cout << B)Insert R ,L  and H" << endl;
+	cout << "B)Insert R ,L  and H" << endl;
 	cin >> R;
 	cin >> L;
 	cin >> H;
