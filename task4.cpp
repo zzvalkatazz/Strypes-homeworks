@@ -20,12 +20,12 @@ int main()
 }
 
 // on TERMINAL 
-// first we create file.txt
-// echo 21.3 22.7 20.5 > file.txt
+// first we create numbers.txt
+// echo 21.3 22.7 20.5 > numbers.txt
 //these are 3 numbers 
-// in same directory we save file.txt and task4.cpp
+// in same directory we save numbers.txt and task4.cpp
 // compile : g++ -o task4 task4.cpp
-// ./task4<file.txt
+// ./task4<numbers.txt
 //output:
 //Insert numbers
 // Max number is 22.7
