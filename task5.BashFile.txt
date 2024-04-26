@@ -1,0 +1,15 @@
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ tee numbers.txt
+23.5
+23.5
+87.3
+87.3
+65.16
+65.16
+23.31
+23.31
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ min_number=$(sort -n numbers.txt | head -n 1)
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ echo "smallest:$min_number"
+smallest:23.31
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ max_number=$(sort -n numbers.txt | tail -n 1)
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ echo "biggest:$max_number"
+biggest:87.3
