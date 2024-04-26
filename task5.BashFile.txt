@@ -7,6 +7,7 @@ valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ tee numbers.txt
 65.16
 23.31
 23.31
+//ctrl+D
 valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ min_number=$(sort -n numbers.txt | head -n 1)
 valentin-kolev@valentin-kolev-Type1ProductConfigId:~$ echo "smallest:$min_number"
 smallest:23.31
