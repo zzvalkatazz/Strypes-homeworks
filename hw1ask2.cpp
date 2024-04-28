@@ -13,7 +13,7 @@ int main()
 	float bmi;
 	bmi = mass / (height * height);
 	cout <<"bmi:"<< bmi << endl;
-	//á)
+	//Ğ±)
 	float newBmi;
 	newBmi = (1.3 / sqrt(height)) * bmi;
 	cout <<"New bmi:"<< newBmi << endl;
