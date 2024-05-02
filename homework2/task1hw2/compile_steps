@@ -1,0 +1,8 @@
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~/Desktop/task1hw2$ g++ -c hw2task1program.cpp -o hw2task1program.o
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~/Desktop/task1hw2$ g++ -c hw2task1swap.cpp -o hw2task1swap.o
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~/Desktop/task1hw2$ g++ hw2task1program.o hw2task1swap.o -o program
+valentin-kolev@valentin-kolev-Type1ProductConfigId:~/Desktop/task1hw2$ ./program
+Enter first number:5
+Enter second number:4
+Before swap:Num=5,Num2=4
+After swap:Num=4,Num2=5
